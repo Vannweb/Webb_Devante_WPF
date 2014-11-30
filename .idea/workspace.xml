@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c726382-fcac-4485-b636-aa3a44a4c54a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Setup GitHub/JS/Script.js" afterPath="$PROJECT_DIR$/Setup GitHub/JS/Script.js" />
-    </list>
+    <list default="true" id="8c726382-fcac-4485-b636-aa3a44a4c54a" name="Default" comment="" />
     <ignored path="Webb_Devante_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
