@@ -1,10 +1,9 @@
-// Arrays
+// expressions
 
-var muppetNames = ["kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
+var width = prompt("We are calculating the area of a rectangle. \nPlease enter the Width:");
+var height = prompt("Please enter the height:");
+var area = width * height; //calculates that info
 
-muppetNames[1] = "Rizzo";
-muppetNames[2] = "Fozzy";
-
-var num = 1;
-
-console.log(muppetNames[num]); //Let's me see what's in index #1
+//console.log(area);
+var result = "The area of your rectangle is " + area + "sq feet";
+alert(result);
