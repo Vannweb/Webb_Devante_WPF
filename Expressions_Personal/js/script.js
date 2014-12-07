@@ -11,8 +11,8 @@ var milesGallon = prompt("Finally, how many miles can your car drive on each gal
 distanceTraveled /= milesGallon; // I also used a different assignment operator for the sake of the assignment only
 // then here I multiply the amount of gas used by the price of gas in the area to find the total.
 var result = distanceTraveled * areaGas;
-
+// extra step, I alert the user of his or her results here
 alert("You spent $" + result + " on gas this week.")
-
+// lastly I print the result to the console
 console.log(result);
 
