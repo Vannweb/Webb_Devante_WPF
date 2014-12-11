@@ -1,12 +1,17 @@
 //Conditional Logic
 
-var budget = 300;
-var iPhonePrice = 199.99;
-var paycheck = 200;
 
-// if the price of the phone is less than our budget AND if our paycheck is over 300
-if(iPhonePrice < budget && paycheck > 300){
-    console.log("We can buy the phone!");
+var age = 11;
+var book;
+
+// If the child is under 10 they get green eggs and ham, otherwise they get the time machine
+/*
+if(age <10){
+    book = "green eggs and ham";
 }else{
-    console.log("no phone for you!");
+    book = "Time machine";
 }
+console.log(book);
+*/
+book = (age < 10) ? "green Eggs and Ham" : "The Time Machine";
+console.log(book);
