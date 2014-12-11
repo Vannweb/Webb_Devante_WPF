@@ -1,15 +1,12 @@
 //Conditional Logic
 
-var kidHeight = 52;
-var minHeight = 48;
-var parentHeight = 45; // The height of the kid if they need a parent
+var budget = 300;
+var iPhonePrice = 199.99;
+var paycheck = 200;
 
-// if the child is old enough print to the console you can ride!
-// if the kid is over 48 inches in height
-if(kidHeight > minHeight){
-    console.log("You can ride the coaster!");
-}else if(kidHeight > parentHeight){
-    console.log("You can ride, but only with a parent present.");
+// if the price of the phone is less than our budget AND if our paycheck is over 300
+if(iPhonePrice < budget && paycheck > 300){
+    console.log("We can buy the phone!");
 }else{
-    console.log("Sorry kid, you've got some growing to do first!")
+    console.log("no phone for you!");
 }
