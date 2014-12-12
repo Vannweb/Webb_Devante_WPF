@@ -1,7 +1,9 @@
 // Devante Webb 12/11/2014 Conditionals Wacky, Social Media Checking
 
 alert("Today we will explore how much you use social networking"); // here we greet the user
+// we ask for the number of times the user checks there social media
 var loginsDay = Number(prompt("How many times do you think you check you social media a day?"));
+// we ask for the number of times a week the user thinks he uses it
 var loginsWeek = Number(prompt("How many days a week do you check your social media?"));
 
 addictionNumber = loginsDay * loginsWeek;
