@@ -27,6 +27,7 @@ if(addictionNumber >=101) {
     alert("You check your social media roughly " + addictionNumber + " times in a week!!");
     alert("...");
     alert("Look there is help out there. I won't judge you but...");
-    alert("I can't just let you keep tweeting and liking your life away");
+    alert("I can't just let you keep tweeting and liking your life away.");
+    alert("We can beat this together.");
 }
 console.log("You check your social media roughly " + addictionNumber + " times in a week!!!");
