@@ -1,13 +1,24 @@
 /*
-Devante Webb
-Test JS file
- * Created by VanWeb on 11/29/14.
- */
-
-//alert("Testing 1, 2, 3 ");
+*/
+var b = 10; //  sets up the index
 
 
-console.log("testing the console.log");
+while (b > 0 ){ //checks the condition
+    console.log(b  +" Kegs on the wall");
+    b--;//increments or decrement the index
+}
+var c = 10;
 
-var userInput = prompt("Type in your name:")
-console.log(userInput);
+do{
+    console.log(c + ' kegs on the wall');
+    c--;
+}
+while( c > 0);
+
+console.log('---------For Loops -----');
+
+for (var i = 10; i > 0; i-- ){
+    console.log(i + ' kegs on the wall')
+}
+
+
